@@ -26,12 +26,15 @@ function viewCart() {
       return "Your shopping cart is empty."
     }
     else {
-      var allItems = Object.keys(cart)
-      var item = allItems[i]
-      var allPrices = Object.values(cart)
-      var price = allPrices[i]
-      return `"In your cart, you have $"`
+      var itemWithPrice = cart[i]
+      var item = Object.keys(itemWithPrice)
+      var price = itemwithPrice[item]
+
+      itemsWithPrices.push(`${item} at $${price}`)
     }
+  }
+  if (itemsWithPrices.length = 1) {
+    console.log(`In your cart, you have ${itemsWithPrices[0]}.`)
   }
 }
 
