@@ -18,13 +18,14 @@ function addToCart(item) {
  return cart
  }
 
-/*function viewCart() {
+function viewCart() {
   // write your code here
   for (i = 0, var l = cart.length; i < l; i++) {
     if (l === 0) {
       return "Your shopping cart is empty."
     }
     else {
+      var itemWithPrice = cart[i]
       return `"In your cart, you have $"`
     }
   }
@@ -40,4 +41,4 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   // write your code here
-} */
+}
