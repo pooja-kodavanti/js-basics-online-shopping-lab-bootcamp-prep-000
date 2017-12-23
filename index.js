@@ -20,7 +20,7 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
-  //for (i = 0, var l = cart.length; i < l; i++) {
+  /*for (i = 0, var l = cart.length; i < l; i++) {
     if (l === 0) {
       return "Your shopping cart is empty."
     }
@@ -28,7 +28,7 @@ function viewCart() {
       return `"In your cart, you have $"`
     }
   }
-}
+}*/
 
 function total() {
   // write your code here
