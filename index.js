@@ -15,7 +15,7 @@ function addToCart(item) {
  cart.push(obj)
 
  return cart
- console.log(${item} has been added to your cart.)
+ console.log("${item} has been added to your cart.")
  }
 
 function viewCart() {
