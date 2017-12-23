@@ -29,6 +29,7 @@ function viewCart() {
       var allItems = Object.keys(cart)
       var item = allItems[i]
       var allPrices = Object.values(cart)
+      var price = allPrices[i]
       return `"In your cart, you have $"`
     }
   }
