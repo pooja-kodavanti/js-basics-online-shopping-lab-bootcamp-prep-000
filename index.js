@@ -15,11 +15,19 @@ function addToCart(item) {
  cart.push(obj)
 
  return cart
- console.log(`"${item} has been added to your cart."`)
+ console.log(${item} has been added to your cart.)
  }
 
 function viewCart() {
   // write your code here
+  for (i = 0, var l = cart.length; i < l; i++) {
+    if (l === 0) {
+      return "Your shopping cart is empty."
+    }
+    else {
+      return `"In your cart, you have $"`
+    }
+  }
 }
 
 function total() {
