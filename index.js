@@ -15,9 +15,8 @@ function addToCart(item) {
  //return Object.assign({}, cart, {[item]: price})
  var obj = {[item]: price}
  cart.push(obj)
-
- console.log(`"${item} has been added to your cart."`)
  return cart
+ console.log(`"${item} has been added to your cart."`)
  }
 
 function viewCart() {
